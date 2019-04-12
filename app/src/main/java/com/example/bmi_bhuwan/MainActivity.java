@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
         txheight = findViewById(R.id.txheight);
         txweight = findViewById(R.id.txweight);
         etd = findViewById(R.id.etd);
