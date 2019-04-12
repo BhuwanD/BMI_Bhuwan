@@ -17,8 +17,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         txheight = findViewById(R.id.txheight);
         txweight = findViewById(R.id.txweight);
+        etd = findViewById(R.id.etd);
         btc = findViewById(R.id.btc);
 
         btc.setOnClickListener(new View.OnClickListener() {
